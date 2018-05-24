@@ -22,4 +22,4 @@ esac
 done
 
 echo "Thank you for letting me know!"
-echo -e `echo "$VERSION"; uname -a` | mail baim@scewby.com
+echo -e `echo "$VERSION"; uname -a` | mail null@0x00.org
