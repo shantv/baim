@@ -42,7 +42,7 @@
 #define PORT 			9993
 #define INFO_PORT		80
 
-#define CLIENT_NAME		"BAIM - BitchX AIM module v0.8a by Scewby"
+#define CLIENT_NAME		"BAIM - BitchX AIM module v0.8a"
 #define CLIENT_SIGNON		"TIK:\\\$Revision: 112"
 
 #define	SIGNON			1
