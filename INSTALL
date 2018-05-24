@@ -1,0 +1,41 @@
+BAIM - BitchX AIM Client Module by Scewby
+Please report all crashes to Scewby@Scewby.com or Scewby on EFnet
+
+********** Installation ********************
+# Note: x.xx == version number (ie. "0.4a")
+cp baim-x.xx.tar.gz BitchX/dll
+(cd BitchX/dll; tar zxvf baim-x.xx.tar.gz)
+cd BitchX
+./configure --with-plugins=baim-x.xx
+(cd BitchX/dll/baim-x.xx;./configure)
+make install
+********** Good Luck ***********************
+
+********** Running *************************
+/loaddll baim
+
+Commands:
+ωνω aaway           aback           aclose          addbuddy
+ωνω aim             aimidle         aw              awho
+ωνω delbuddy        im              showlist
+
+	/aaway		[reason]		Set away on aim
+	/aback					Unset away
+	/aclose					Close connection to aim
+	/addbuddy	[group] [screenname]	Addbuddy to buddy list
+	/aim					Connect to aim
+	/aimidle 	[idle minutes]		Set idle minutes
+	/aw					Show buddy's on your list that
+						are currently online
+	/awho		[screenname]		Get buddy information
+	/delbuddy	[screenname]		delete buddy from list
+	/im		[screenname]		Send im to [screenname]
+	/showlist				Ugly listing of all users in
+						buddy list
+********** fun stuff ***********************
+
+Logging in:
+/set aim_screenname <screenname>
+/set aim_password <password>
+/aim
+

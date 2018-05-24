@@ -1,0 +1,58 @@
+Change log starts as of January 11, 2000, and during release 0.4a.
+
+0.4a:
+	1/11/2000	Tab key works on /im's now
+	1/11/2000	Added notice for most info errors 
+	1/11/2000	Sets idle times and online time correctly
+	1/11/2000	Updated load_list to read buddy.lst so now it can
+			read through wierd spacing and stuff.
+
+	1/12/2000	when you are set away, incoming/outgoing im's get 
+			logged in your away log. (/read to read them)
+
+	1/17/2000	Added /addbuddy function to add a buddy to buddy.lst
+
+	1/19/2000	Added /awho functionality, to get buddy info etc..
+
+	1/26/2000	Added /setidle functionality [/aimidle <Idle Minutes>]
+	1/26/2000	Added ability to see if user has his away flag set
+
+	1/28/2000	Added delbuddy function to delete buddies from list
+	1/28/2000	Added /showlist function to display current buddylist
+
+	1/29/2000	Added /aaway function, to set away and stuff
+				[/aaway <reason>]
+	1/29/2000	Added /aback function, to unset away
+				[/aback]
+	1/29/2000	Made it so that when your away and you get an IM,
+			it auto reply's with <reason>
+	1/29/2000 	Official release of v0.4a
+
+	2/16/2000	Finished fixing a bunch of bugs.
+			Beginning to look a bit stable.
+	2/16/2000	Fixed a problem with the apppearance logs.
+			Now it keeps correct track of how many times a user
+			has logged in since your bitchx session started.
+			[ ACTIVE ] (1)(ScewbyDeww)
+				   ^^^ - amount of times logged in
+	3/09/2000	Fixed some lame bugs and made it so that when aim
+			drops a connection you are notified and bx won't crash.
+			Getting much more stable.
+	3/09/2000	Release of 0.5a
+	3/16/2000	Found some other stupid bugs
+	3/16/2000	Releasing 0.6a since bugs caused some segs.
+
+0.7a:
+	5/1/2000	changing the aim_info variable will now be sent
+			to the toc server hence the changes will take effect
+			immediately.
+
+	6/10/2000	Decided I was bored, so I added a timer to check
+			if the connection is still alive every 3 minutes.
+
+	6/10/2000	Guess this is worthy of another version change.
+			0.7a released today.
+0.8a:
+	6/13/2000	Screennames with a space in them like "Hello World" now
+			come in as HelloWorld and work the same.
+			So '/im HelloWorld' would target "Hello World".

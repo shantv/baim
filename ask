@@ -1,0 +1,25 @@
+#!/bin/sh
+
+VERSION="Baim-0.8a";
+
+echo -n "This program will email the author of BAIM the system you are running (uname -a) and the version of baim, is this ok? (Y/n) [Y] "
+
+
+while [ true ]; do
+read i;
+case $i in
+	'')
+		break;;
+	'y') 
+		break;;
+	'n')
+		echo "Ok, no problem.";
+		exit;;
+	*)
+		echo "(Y/n) [Y] ";
+		continue;;
+esac
+done
+
+echo "Thank you for letting me know!"
+echo -e `echo "$VERSION"; uname -a` | mail baim@scewby.com

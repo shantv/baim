@@ -1,0 +1,20 @@
+#!/bin/bash
+
+VERSION="0.8a"
+
+if [ ! -e "../Makefile" ]; then
+	echo "Makefile doesn't exist."
+	echo "You have to configure BitchX with the following first:"
+	echo "./configure --with-plugins=baim-$VERSION"
+	exit;
+fi;
+
+let i=`grep -ci "baim-$VERSION" ../Makefile`
+if [ $i -gt 2 ]; then
+	echo "Changes already made...exiting"
+	exit;
+fi;
+
+echo "Copying necessary steps to Makefile"
+echo -e "baim-$VERSION: dummy\n\t@cd baim-$VERSION; \$(MAKE) all\n\t@cp baim-$VERSION/baim\${SHLIB_SUFFIX} ." >> ../Makefile
+
