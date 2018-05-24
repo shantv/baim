@@ -1,20 +1,6 @@
 /*
  * 12/28/99
- * BAIM - BitchX AIM Plugin/Module by Scewby
- * 
- * HOWS MY DRIVING?
- * Scewby@Scewby.com for questions/comments/ideas/complaints
- * Scewby on EFnet IRC network
- * ScewbyDeww on AIM
- *
- * Thanks to Drago for helping.
- * 
- * Do whatever you want with the code just give credit where its due.
- * 
- * Warning:  This is a cheap hack.
- *
- * Please report crashes to Scewby@Scewby.com, telling me what
- * you did with as much detail as you can remember. Thanks.
+ * BAIM - BitchX AIM Plugin/Module by Shant
  * 
  */
 
